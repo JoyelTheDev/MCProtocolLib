@@ -41,8 +41,9 @@ Follow the below steps to add MCProtocolLib as a dependency to your project.
 ```groovy
 repositories {
     maven { 
-        name 'opencollab'
-        url 'https://repo.opencollab.dev/main/'
+        name 'opencollabRepositoryMavenReleases'
+        url 'https://repo.opencollab.dev/maven-releases/'
+         
     }
 }
 ```
